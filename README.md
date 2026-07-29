@@ -18,19 +18,19 @@ equests for RESTful API calls.
 
 ## Installation
 1. Clone the repository:
-   `ash
+   ````bash
    git clone https://github.com/MoayadAlshehry/rain-alert.git
    cd rain-alert
    `
 2. Install dependencies:
-   `ash
+   ````bash
    pip install -r requirements.txt
    `
 3. Open main.py and replace the placeholder variables (like YOUR_TWILIO_ACCOUNT_SID, YOUR_OPENWEATHER_APPID) with your actual API keys and phone numbers.
 
 ## Usage
 Run the script (or set it up on a cron job) to check the weather and send alerts:
-`ash
+````bash
 python main.py
 `
 
