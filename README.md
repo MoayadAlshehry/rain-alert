@@ -15,16 +15,16 @@ Weather forecast script checking for rain and sending Twilio SMS alerts.
 ## Installation
 1. Clone the repository:
 ```bash
-   git clone https://github.com/MoayadAlshehry/rain-alert.git
-   cd rain-alert
+git clone https://github.com/MoayadAlshehry/rain-alert.git
+cd rain-alert
 ```
 2. Install dependencies:
 ```bash
-   pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 3. Open configuration in main file and update credentials:
 ```python
-   main.py
+main.py
 account_sid = "YOUR_TWILIO_ACCOUNT_SID"
 ```
 
