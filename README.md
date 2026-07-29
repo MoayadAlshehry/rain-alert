@@ -1,51 +1,49 @@
-# Rain Alert App
+# Rain Alert SMS App
 
 ## Description
-An automated weather monitoring application that checks the forecast for the upcoming 12 hours. If rain is predicted, it uses the Twilio API to send an SMS/WhatsApp alert, ensuring you never forget your umbrella.
+Weather forecast script checking for rain and sending Twilio SMS alerts.
 
 ## Features
-- Integrates with the OpenWeatherMap API for accurate weather forecasts.
-- Uses the Twilio API to send real-time text alerts.
-- Formats the 12-hour forecast into a readable message.
-- Secure environment variable management for API keys and phone numbers.
+- OpenWeatherMap API weather fetching
+- Twilio SMS notification
 
 ## Technologies
 - Python 3.x
-- 
-equests for RESTful API calls.
-- 	wilio for SMS/WhatsApp messaging.
-
+- requests
+- twilio
 
 ## Installation
 1. Clone the repository:
-   ````bash
+   ```bash
    git clone https://github.com/MoayadAlshehry/rain-alert.git
    cd rain-alert
-   `
+   ```
 2. Install dependencies:
-   ````bash
+   ```bash
    pip install -r requirements.txt
-   `
-3. Open main.py and replace the placeholder variables (like YOUR_TWILIO_ACCOUNT_SID, YOUR_OPENWEATHER_APPID) with your actual API keys and phone numbers.
+   ```
+3. Open configuration in main file and update credentials:
+   ```python
+   main.py
+account_sid = "YOUR_TWILIO_ACCOUNT_SID"
+   ```
 
 ## Usage
-Run the script (or set it up on a cron job) to check the weather and send alerts:
-````bash
+Run the application:
+```bash
 python main.py
-`
+```
 
 ## Project Structure
-- main.py: The main API integration and logic script.
-
+- `main.py`: Source module/asset.
+- `requirements.txt`: Source module/asset.
+- `LICENSE`: MIT License.
 
 ## Requirements
 - Python 3.9+
-- OpenWeatherMap Account (Free Tier)
-- Twilio Account
 
 ## Future Improvements
-- Host the script on a cloud provider (e.g., PythonAnywhere, AWS Lambda) to run daily at 7 AM.
-- Support for multiple user locations and phone numbers.
+- Maintenance and enhancement updates.
 
 ## License
 This project is licensed under the MIT License.
