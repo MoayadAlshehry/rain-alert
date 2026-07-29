@@ -19,7 +19,7 @@ equests for RESTful API calls.
 ## Installation
 1. Clone the repository:
    `ash
-   git clone https://github.com/yourusername/rain-alert.git
+   git clone https://github.com/MoayadAlshehry/rain-alert.git
    cd rain-alert
    `
 2. Install dependencies:
@@ -36,7 +36,7 @@ python main.py
 
 ## Project Structure
 - main.py: The main API integration and logic script.
-- .env: Environment variables configuration.
+
 
 ## Requirements
 - Python 3.9+
